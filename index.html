@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Apron Strings Cleaning</title>
-  <meta name="description" content="Apron Strings Cleaning — A short line about what Apron Strings Cleaning does.">
+  <meta name="description" content="House cleaning in West Valley City. Apron Strings Cleaning cleans homes in West Valley City and nearby — regular visits, deep cleans, and the ones that have to be done by a deadline.">
   <!-- The pages are rendered from site.json by `site render` (lib/sitegen.py): change site.json, never this file. -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/look.css">
@@ -16,39 +16,62 @@
     <a class="wordmark" href="index.html">Apron Strings Cleaning</a>
     <nav class="site-nav" aria-label="Site">
       <a href="index.html#services">Services</a>
+      <a href="index.html#about">About</a>
       <a href="index.html#quote">Get a quote</a>
     </nav>
-    <a class="header-cta" href="#booking"><span class="cta-full">Book a visit</span><span class="cta-short">Book</span></a>
+    <a class="header-cta" href="#quote"><span class="cta-full">Ask for a cleaning quote</span><span class="cta-short">Quote</span></a>
   </header>
 
   <main id="top">
-    <section class="hero-block hero--typographic" id="hero">
+    <section class="hero-block hero--band-card has-image" id="hero">
+      <figure class="hero-media">
+        <picture><img src="images/hero-10758467.jpg" width="2000" height="1333" alt="A clean, bright living room" loading="eager" fetchpriority="high" decoding="async"></picture>
+      </figure>
       <div class="hero-copy">
-        <h1 class="hero-heading">Apron Strings Cleaning</h1>
-        <div class="hero-aside">
-          <p class="hero-sub">A short line about what Apron Strings Cleaning does.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#booking">Book a visit</a>
-            <a class="btn btn-secondary" href="#quote">Ask for a quote</a>
-          </div>
+        <p class="hero-kicker">Apron Strings Cleaning</p>
+        <h1 class="hero-heading">House cleaning in West Valley City</h1>
+        <p class="hero-sub">Regular visits, deep cleans, and the ones that have to be done by a deadline.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#quote">Ask for a cleaning quote</a>
+          <a class="btn btn-secondary" href="#quote">Book a visit</a>
         </div>
       </div>
+    </section>
+    <section class="proof proof--strip" aria-label="At a glance">
+      <ul class="proof-list">
+        <li><a href="https://maps.google.com/?cid=12569710818939917201">5.0 on Google, 25 reviews</a></li>
+        <li>West Valley City and nearby</li>
+        <li>Mon–Fri 8:00–4:30</li>
+      </ul>
     </section>
     <section class="section services services--numerals" id="services">
       <div class="section-inner">
         <div class="section-head">
-          <p class="kicker">What we do</p>
-          <h2>What we do</h2>
+          <p class="kicker">Usually asked for</p>
+          <h2>What a cleaning company is usually asked for</h2>
+          <p class="lede">Written from the category on their Google listing, not from anything Apron Strings Cleaning has told us. On their own site this is their list, in their words.</p>
         </div>
         <ol class="service-list">
-          <li data-reveal><span class="service-n" aria-hidden="true">01</span><h3>First service</h3><p>What it is and who it's for, in a sentence or two.</p></li>
-          <li data-reveal><span class="service-n" aria-hidden="true">02</span><h3>Second service</h3><p>What it is and who it's for, in a sentence or two.</p></li>
-          <li data-reveal><span class="service-n" aria-hidden="true">03</span><h3>Third service</h3><p>What it is and who it's for, in a sentence or two.</p></li>
-          <li data-reveal><span class="service-n" aria-hidden="true">04</span><h3>Fourth service</h3><p>Delete the cards they don't need.</p></li>
+          <li data-reveal><span class="service-n" aria-hidden="true">01</span><h3>Regular cleans</h3><p>Weekly, fortnightly or monthly.</p></li>
+          <li data-reveal><span class="service-n" aria-hidden="true">02</span><h3>Deep cleans</h3><p>Baseboards, inside appliances, the parts that get skipped.</p></li>
+          <li data-reveal><span class="service-n" aria-hidden="true">03</span><h3>Move in and move out</h3><p>Empty house, ready for the walk-through.</p></li>
+          <li data-reveal><span class="service-n" aria-hidden="true">04</span><h3>After a build</h3><p>Dust out of every corner.</p></li>
+          <li data-reveal><span class="service-n" aria-hidden="true">05</span><h3>Airbnb turnovers</h3><p>Same-day, linens included.</p></li>
         </ol>
       </div>
     </section>
-    <section class="section booking booking--next-available alt" id="booking">
+    <section class="section about about--band band" id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-copy">
+            <h2>About</h2>
+            <p class="lede">Apron Strings Cleaning cleans homes in West Valley City and nearby — regular visits, deep cleans, and the ones that have to be done by a deadline.</p>
+            <p class="">This page is a starting point: the details come from their public Google listing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section booking booking--next-available" id="booking">
       <div class="section-inner">
         <div class="form-grid">
           <div class="section-head">
@@ -111,42 +134,38 @@ put(put(g,slot("booking-slot",s)),el("span",0," "+T(t)+(ex(s)?" · "+ex(s):"")))
         </div>
       </div>
     </section>
-    <section class="section quote quote--card" id="quote">
+    <section class="section quote quote--plain alt" id="quote">
       <div class="section-inner">
-        <div class="form-grid">
-          <div class="section-head">
-            <p class="kicker">Quotes</p>
-            <h2>Ask for a quote</h2>
-            <p class="lede">Tell us what you need and we'll get back to you with a price.</p>
-          </div>
-          <div class="form-card" data-reveal>
-            <form class="site-form" id="form" action="/api/submissions" method="post">
-              <input type="hidden" name="_form" value="quote">
-              <fieldset class="form-fields">
-                <div class="field-row">
-                  <label>Name <input name="name" required autocomplete="name"></label>
-                  <label>Email <input name="email" type="email" required autocomplete="email"></label>
-                  <label>Phone <input name="phone" type="tel" autocomplete="tel"></label>
-                </div>
-                <label>What do you need? <textarea name="message" rows="4" required></textarea></label>
-                <input name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
-                <button class="btn btn-primary" type="submit">Send</button>
-              </fieldset>
-              <p class="form-thanks" hidden>Thanks — we've got it and we'll be in touch.</p>
-              <p class="form-sorry" hidden>That didn't go through. Please try again.</p>
-              <script>
-                (function () {
-                  var f = document.getElementById("form"), q = location.search;
-                  if (/[?&]sent=0/.test(q) && location.hash === "#form") f.querySelector(".form-sorry").hidden = false;
-                  else if (/[?&]sent=quote/.test(q)) f.querySelector(".form-thanks").hidden = false;
-                })();
-              </script>
-            </form>
-          </div>
+        <div class="section-head">
+          <p class="kicker">Quotes</p>
+          <h2>Ask for a cleaning quote</h2>
+          <p class="lede">Tell us what you need and we'll get back to you with a price.</p>
         </div>
+        <form class="site-form" id="form" action="/api/submissions" method="post">
+          <input type="hidden" name="_form" value="quote">
+          <fieldset class="form-fields">
+            <div class="field-row">
+              <label>Name <input name="name" required autocomplete="name"></label>
+              <label>Email <input name="email" type="email" required autocomplete="email"></label>
+              <label>Phone <input name="phone" type="tel" autocomplete="tel"></label>
+            </div>
+            <label>What do you need? <textarea name="message" rows="4" required></textarea></label>
+            <input name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+            <button class="btn btn-primary" type="submit">Send</button>
+          </fieldset>
+          <p class="form-thanks" hidden>Thanks — we've got it and we'll be in touch.</p>
+          <p class="form-sorry" hidden>That didn't go through. Please try again.</p>
+          <script>
+            (function () {
+              var f = document.getElementById("form"), q = location.search;
+              if (/[?&]sent=0/.test(q) && location.hash === "#form") f.querySelector(".form-sorry").hidden = false;
+              else if (/[?&]sent=quote/.test(q)) f.querySelector(".form-thanks").hidden = false;
+            })();
+          </script>
+        </form>
       </div>
     </section>
-    <section class="section details details--columns alt" id="details">
+    <section class="section details details--columns" id="details">
       <div class="section-inner">
         <div class="section-head">
           <p class="kicker">Details</p>
@@ -156,14 +175,13 @@ put(put(g,slot("booking-slot",s)),el("span",0," "+T(t)+(ex(s)?" · "+ex(s):"")))
           <div>
             <h3>Hours</h3>
             <ul class="hours">
-              <li>Placeholder hours: Mon–Fri 8am–5pm</li>
-              <li>Sat 9am–1pm</li>
-              <li>Sun closed</li>
+              <li>Mon–Fri 8:00 AM–4:30 PM</li>
+              <li>Sat–Sun closed</li>
             </ul>
           </div>
           <div>
             <h3>Where</h3>
-            <p>REPLACE-ME: the area they serve (or an address if customers come to them).</p>
+            <p>West Valley City and the towns around it.</p>
           </div>
           <div>
             <h3>Contact</h3>

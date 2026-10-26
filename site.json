@@ -4,47 +4,99 @@
  "template": "service",
  "name": "Apron Strings Cleaning",
  "lang": "en",
- "description": "Apron Strings Cleaning — A short line about what Apron Strings Cleaning does.",
+ "description": "House cleaning in West Valley City. Apron Strings Cleaning cleans homes in West Valley City and nearby — regular visits, deep cleans, and the ones that have to be done by a deadline.",
  "cta": {
-  "text": "Book a visit",
-  "short": "Book",
-  "href": "#booking"
+  "text": "Ask for a cleaning quote",
+  "short": "Quote",
+  "href": "#quote"
  },
  "design": {
   "look": "clear-water",
   "variants": {
-   "hero": "typographic"
+   "hero": "band-card",
+   "proof": "strip",
+   "services": "numerals",
+   "about": "band",
+   "booking": "next-available",
+   "quote": "plain",
+   "details": "columns"
   },
-  "images": []
+  "images": [
+   {
+    "id": "pexels:10758467",
+    "src": "images/hero-10758467.jpg",
+    "alt": "A clean, bright living room",
+    "w": 2000,
+    "h": 1333,
+    "class": "stock",
+    "source": "https://www.pexels.com/photo/spacious-living-room-10758467/",
+    "licence": "Pexels",
+    "label": "Stock photo",
+    "slot": "hero",
+    "photographer": "Viaceslav Kat",
+    "photographer_url": "https://www.pexels.com/@fotoaibe",
+    "query": "clean bright living room"
+   }
+  ]
  },
  "sections": [
   {
    "type": "hero",
-   "heading": "Apron Strings Cleaning",
-   "sub": "A short line about what Apron Strings Cleaning does.",
-   "secondary": "Ask for a quote"
+   "kicker": "Apron Strings Cleaning",
+   "heading": "House cleaning in West Valley City",
+   "sub": "Regular visits, deep cleans, and the ones that have to be done by a deadline.",
+   "secondary": "Book a visit",
+   "image": "pexels:10758467"
+  },
+  {
+   "type": "proof",
+   "items": [
+    {
+     "text": "5.0 on Google, 25 reviews",
+     "href": "https://maps.google.com/?cid=12569710818939917201"
+    },
+    {
+     "text": "West Valley City and nearby"
+    },
+    {
+     "text": "Mon–Fri 8:00–4:30"
+    }
+   ]
   },
   {
    "type": "services",
-   "kicker": "What we do",
-   "heading": "What we do",
+   "kicker": "Usually asked for",
+   "heading": "What a cleaning company is usually asked for",
+   "intro": "Written from the category on their Google listing, not from anything Apron Strings Cleaning has told us. On their own site this is their list, in their words.",
    "items": [
     {
-     "title": "First service",
-     "text": "What it is and who it's for, in a sentence or two."
+     "title": "Regular cleans",
+     "text": "Weekly, fortnightly or monthly."
     },
     {
-     "title": "Second service",
-     "text": "What it is and who it's for, in a sentence or two."
+     "title": "Deep cleans",
+     "text": "Baseboards, inside appliances, the parts that get skipped."
     },
     {
-     "title": "Third service",
-     "text": "What it is and who it's for, in a sentence or two."
+     "title": "Move in and move out",
+     "text": "Empty house, ready for the walk-through."
     },
     {
-     "title": "Fourth service",
-     "text": "Delete the cards they don't need."
+     "title": "After a build",
+     "text": "Dust out of every corner."
+    },
+    {
+     "title": "Airbnb turnovers",
+     "text": "Same-day, linens included."
     }
+   ]
+  },
+  {
+   "type": "about",
+   "heading": "About",
+   "paragraphs": [
+    "Apron Strings Cleaning cleans homes in West Valley City and nearby — regular visits, deep cleans, and the ones that have to be done by a deadline.",
+    "This page is a starting point: the details come from their public Google listing."
    ]
   },
   {
@@ -56,7 +108,7 @@
   {
    "type": "quote",
    "kicker": "Quotes",
-   "heading": "Ask for a quote",
+   "heading": "Ask for a cleaning quote",
    "intro": "Tell us what you need and we'll get back to you with a price."
   },
   {
@@ -64,11 +116,10 @@
    "kicker": "Details",
    "heading": "Hours",
    "hours": [
-    "Placeholder hours: Mon–Fri 8am–5pm",
-    "Sat 9am–1pm",
-    "Sun closed"
+    "Mon–Fri 8:00 AM–4:30 PM",
+    "Sat–Sun closed"
    ],
-   "where": "REPLACE-ME: the area they serve (or an address if customers come to them)."
+   "where": "West Valley City and the towns around it."
   }
  ],
  "mail": "apron-strings@mail.patchlamp.com"
