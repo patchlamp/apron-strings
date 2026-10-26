@@ -1,0 +1,75 @@
+{
+ "schema": 2,
+ "slug": "apron-strings",
+ "template": "service",
+ "name": "Apron Strings Cleaning",
+ "lang": "en",
+ "description": "Apron Strings Cleaning — A short line about what Apron Strings Cleaning does.",
+ "cta": {
+  "text": "Book a visit",
+  "short": "Book",
+  "href": "#booking"
+ },
+ "design": {
+  "look": "clear-water",
+  "variants": {
+   "hero": "typographic"
+  },
+  "images": []
+ },
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "Apron Strings Cleaning",
+   "sub": "A short line about what Apron Strings Cleaning does.",
+   "secondary": "Ask for a quote"
+  },
+  {
+   "type": "services",
+   "kicker": "What we do",
+   "heading": "What we do",
+   "items": [
+    {
+     "title": "First service",
+     "text": "What it is and who it's for, in a sentence or two."
+    },
+    {
+     "title": "Second service",
+     "text": "What it is and who it's for, in a sentence or two."
+    },
+    {
+     "title": "Third service",
+     "text": "What it is and who it's for, in a sentence or two."
+    },
+    {
+     "title": "Fourth service",
+     "text": "Delete the cards they don't need."
+    }
+   ]
+  },
+  {
+   "type": "booking",
+   "kicker": "Book",
+   "heading": "Book a visit",
+   "intro": "Pick an open time. We'll confirm by email or phone."
+  },
+  {
+   "type": "quote",
+   "kicker": "Quotes",
+   "heading": "Ask for a quote",
+   "intro": "Tell us what you need and we'll get back to you with a price."
+  },
+  {
+   "type": "details",
+   "kicker": "Details",
+   "heading": "Hours",
+   "hours": [
+    "Placeholder hours: Mon–Fri 8am–5pm",
+    "Sat 9am–1pm",
+    "Sun closed"
+   ],
+   "where": "REPLACE-ME: the area they serve (or an address if customers come to them)."
+  }
+ ],
+ "mail": "apron-strings@mail.patchlamp.com"
+}
